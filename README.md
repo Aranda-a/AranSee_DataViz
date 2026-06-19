@@ -24,6 +24,15 @@
 
 ---
 
+## 在线试玩
+
+| 展示 | 链接 |
+|------|------|
+| **系列双锚（推荐）** | [立即探索](https://aranda-a.github.io/AranSee_DataViz/demos/folk_daoxi_series_01/aransee_sandbox.html) |
+| 入口导航 | [对比数据系列探索](https://aranda-a.github.io/AranSee_DataViz/demos/) |
+
+---
+
 ## 与其他 AI 分析工具有何不同
 
 AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化**——不是留在对话框里的长报告。
@@ -66,15 +75,6 @@ AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化
     <td align="center" colspan="2"><sub>亮色 · 近距读数 · 系列对比（收官锚点 B）</sub></td>
   </tr>
 </table>
-
----
-
-## 在线试玩
-
-| 展示 | 链接 |
-|------|------|
-| **系列双锚（推荐）** | [立即探索](https://aranda-a.github.io/AranSee_DataViz/demos/folk_daoxi_series_01/aransee_sandbox.html) |
-| 入口导航 | [对比数据系列探索](https://aranda-a.github.io/AranSee_DataViz/demos/) |
 
 ---
 

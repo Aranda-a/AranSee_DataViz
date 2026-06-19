@@ -24,6 +24,15 @@ Helps creators diagnose a **single post + comment field**: structure / commercia
 
 ---
 
+## Try online
+
+| Demo | Link |
+|------|------|
+| **Series dual anchor (recommended)** | [Explore now](https://aranda-a.github.io/AranSee_DataViz/demos/folk_daoxi_series_01/aransee_sandbox.html) |
+| Entry hub | [Compare data series](https://aranda-a.github.io/AranSee_DataViz/demos/) |
+
+---
+
 ## How AranSee differs from other AI analytics tools
 
 AranSee turns model output into **protocol scores** that drive **deterministic visualization** — not paragraphs left in the chat.
@@ -66,15 +75,6 @@ AranSee turns model output into **protocol scores** that drive **deterministic v
     <td align="center" colspan="2"><sub>Light · close read · series compare (closing anchor B)</sub></td>
   </tr>
 </table>
-
----
-
-## Try online
-
-| Demo | Link |
-|------|------|
-| **Series dual anchor (recommended)** | [Explore now](https://aranda-a.github.io/AranSee_DataViz/demos/folk_daoxi_series_01/aransee_sandbox.html) |
-| Entry hub | [Compare data series](https://aranda-a.github.io/AranSee_DataViz/demos/) |
 
 ---
 
