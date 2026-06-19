@@ -2,9 +2,11 @@
 
 <div align="right"><a href="README.md">中文</a> · <strong>English</strong></div>
 
-<p align="center">
-  <img src="docs/brand/googo_ip.png" width="132" alt="Googo" />
-</p>
+<div align="center">
+  <a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html"><img src=".github/assets/googo_ip.svg" alt="Googo" width="132" /></a>
+  <br/>
+  <sub>Click to interact · <a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html">interactive version</a></sub>
+</div>
 
 **AranSee** is an **AI content diagnosis** product for creators: post + comment field → **X/Y/Z tri-axis scores**, with an interactive **2.5D sandbox** so placement is visible at a glance.  
 Install as a Cursor Skill — **AI reads and scores**, **the sandbox presents and simulates**; not a long chat report, not an agent plugin.
