@@ -1,15 +1,11 @@
 # AranSee_DataViz
 
 <p align="center">
-  <a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html" title="Googo · 交互 IP">
-    <img src="docs/brand/googo_ip.svg" width="132" alt="Googo" />
-  </a>
-  <br />
-  <sub><a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html">Googo 交互页</a> · 眼球追踪 · 悬停微动 · 中/EN</sub>
+  <img src="docs/brand/googo_ip_static.svg" width="132" alt="Googo" />
 </p>
 
-**AranSee** 是面向创作者的 **AI 内容诊断产品**：把你的帖文与评论场翻译成 **X/Y/Z 三轴判断**，再用可交互 **2.5D 沙盘**把落位看得见。  
-在 Cursor 里以 Skill 安装使用——**AI 负责读懂与打分，沙盘负责呈现与模拟**；不是 Chat 长报告，也不是纯 Agent 插件。
+**AranSee** 是面向创作者的 **AI 内容诊断产品**：帖文与评论场 → **X/Y/Z 三轴判断**，可交互 **2.5D 沙盘**让落位一眼能看见。  
+在 Cursor 以 Skill 安装——**AI 读懂打分**，**沙盘呈现模拟**；不是 Chat 长报告，也不是 Agent 型插件。
 
 帮创作者针对**单条帖文 + 评论场**，完成结构 / 商业 / 情感落位、短洞察、策略模拟与 ROI 提示。
 
@@ -24,7 +20,7 @@
 
 ---
 
-## 与其他 AI 分析有何不同
+## 与其他 AI 工具分析有何不同
 
 AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化**——不是留在对话框里的长报告。
 
@@ -35,7 +31,7 @@ AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化
 
 ---
 
-## 适用谁
+## 适用人群
 
 | 内容形态 | 你会看清什么 |
 |----------|----------------|
@@ -71,13 +67,15 @@ AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化
 
 ## 在线试玩
 
-无需安装，直接打开 Pages 渲染页（不是仓库源码视图）。
+无需安装，点击下方链接进入 Pages 沙盘（非仓库源码页）。
 
 | 展示 | 链接 |
 |------|------|
 | **系列双锚（推荐）** | [打开沙盘](https://aranda-a.github.io/AranSee_DataViz/demos/folk_daoxi_series_01/aransee_sandbox.html) |
-| 旗舰单点 | [打开沙盘](https://aranda-a.github.io/AranSee_DataViz/demos/folk_film_commentary_01/aransee_sandbox.html) |
 | 入口导航 | [展示首页](https://aranda-a.github.io/AranSee_DataViz/demos/) |
+| Googo 交互 IP | [交互页](https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html) |
+
+<p align="center"><sub>若链接暂不可用：仓库 <b>Settings → Pages → Source: GitHub Actions</b>，推送后等待 1–2 分钟部署。</sub></p>
 
 ---
 
