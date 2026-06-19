@@ -12,6 +12,15 @@
       background: var(--bg); color: var(--fg);
       display: flex; align-items: center; justify-content: center; padding: 2rem;
     }
+    .lang-bar {
+      position: fixed; top: 12px; right: 12px; display: flex; gap: 6px;
+    }
+    .lang-bar button {
+      padding: 5px 11px; font-size: 12px; border-radius: 8px; cursor: pointer;
+      border: 1px solid rgba(139, 207, 106, 0.35); background: transparent;
+      color: var(--accent);
+    }
+    .lang-bar button.active { background: rgba(139, 207, 106, 0.14); border-color: var(--accent); }
     main { max-width: 32rem; width: 100%; }
     h1 { font-size: 1.5rem; font-weight: 600; margin: 0 0 0.5rem; color: var(--accent); }
     p { color: var(--muted); line-height: 1.55; margin: 0 0 1.25rem; }
@@ -24,21 +33,69 @@
     a.demo strong { display: block; margin-bottom: 0.25rem; }
     a.demo span { font-size: 0.875rem; color: var(--muted); }
     .tag { font-size: 0.75rem; color: var(--accent); }
+    .back { display: inline-block; margin-top: 0.5rem; font-size: 0.875rem; color: var(--muted); }
   </style>
 </head>
 <body>
+  <div class="lang-bar" aria-label="Language">
+    <button type="button" data-lang="zh" class="active">中</button>
+    <button type="button" data-lang="en">EN</button>
+  </div>
   <main>
-    <h1>AranSee 展示沙盘</h1>
-    <p>预烘焙静态页，无需安装。需联网加载 Three.js。数据已脱敏，仅供体验协议与场域形态。</p>
+    <h1 data-i18n="title">AranSee 展示沙盘</h1>
+    <p data-i18n="lead">预烘焙静态页，无需安装。需联网加载 Three.js。数据已脱敏，仅供体验协议与场域形态。</p>
     <a class="demo" href="folk_daoxi_series_01/aransee_sandbox.html">
-      <span class="tag">推荐 · 系列双锚</span>
-      <strong>民俗恐怖解说 · 同场 A / B</strong>
-      <span>切换锚点看诊断、模拟与场层变化</span>
+      <span class="tag" data-i18n="tagSeries">推荐 · 系列双锚</span>
+      <strong data-i18n="seriesTitle">民俗恐怖解说 · 同场 A / B</strong>
+      <span data-i18n="seriesDesc">切换锚点看诊断、模拟与场层变化</span>
     </a>
     <a class="demo" href="folk_film_commentary_01/aransee_sandbox.html">
-      <strong>旗舰单点 · 锚点 A</strong>
-      <span>单帖三轴诊断 + 策略模拟</span>
+      <strong data-i18n="singleTitle">旗舰单点 · 锚点 A</strong>
+      <span data-i18n="singleDesc">单帖三轴诊断 + 策略模拟</span>
     </a>
+    <a class="back" href="../brand/ip-mark.html" data-i18n="backIp">← Googo 交互页</a>
   </main>
+  <script>
+    const I18N = {
+      zh: {
+        title: 'AranSee 展示沙盘',
+        lead: '预烘焙静态页，无需安装。需联网加载 Three.js。数据已脱敏，仅供体验协议与场域形态。',
+        tagSeries: '推荐 · 系列双锚',
+        seriesTitle: '民俗恐怖解说 · 同场 A / B',
+        seriesDesc: '切换锚点看诊断、模拟与场层变化',
+        singleTitle: '旗舰单点 · 锚点 A',
+        singleDesc: '单帖三轴诊断 + 策略模拟',
+        backIp: '← Googo 交互页',
+      },
+      en: {
+        title: 'AranSee Sandbox Demos',
+        lead: 'Pre-baked static pages — no install. Requires network for Three.js. De-identified samples for protocol & field UX only.',
+        tagSeries: 'Recommended · dual anchor',
+        seriesTitle: 'Folk horror commentary · anchors A / B',
+        seriesDesc: 'Switch anchors to compare diagnosis, sim & field layers',
+        singleTitle: 'Flagship single · anchor A',
+        singleDesc: 'Tri-axis diagnosis + strategy simulation',
+        backIp: '← Googo interactive',
+      },
+    };
+    function applyLang(lang) {
+      const pack = I18N[lang] || I18N.zh;
+      document.documentElement.lang = lang === 'en' ? 'en' : 'zh-CN';
+      document.title = pack.title;
+      document.querySelectorAll('[data-i18n]').forEach((el) => {
+        const key = el.getAttribute('data-i18n');
+        if (pack[key]) el.textContent = pack[key];
+      });
+      document.querySelectorAll('.lang-bar button').forEach((btn) => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+      try { localStorage.setItem('aransee-demo-lang', lang); } catch (_) {}
+    }
+    document.querySelectorAll('.lang-bar button').forEach((btn) => {
+      btn.addEventListener('click', () => applyLang(btn.dataset.lang));
+    });
+    const saved = (() => { try { return localStorage.getItem('aransee-demo-lang'); } catch (_) { return null; } })();
+    applyLang(saved === 'en' ? 'en' : 'zh');
+  </script>
 </body>
 </html>
