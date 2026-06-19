@@ -1,0 +1,26 @@
+# 密钥与环境
+.env
+.env.*
+!.env.example
+
+# 评分内核与本地真名档（不进公开仓库）
+docs/internal/
+scripts/internal/
+
+# LLM 原始缓存
+.cache/
+*_llm_raw.json
+sim_roi_llm_raw.json
+
+# Python
+__pycache__/
+*.pyc
+.Python
+.venv/
+venv/
+
+# 本地管道输出
+output/
+
+# 公开同步暂存（由 sync_github_release.py 生成）
+release/github/staging/

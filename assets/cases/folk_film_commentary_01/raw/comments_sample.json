@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "case_id": "folk_film_commentary_01",
+    "platform": "public_video_site",
+    "total_comments_approx": 29000,
+    "sample_size": 10,
+    "sample_method": "pinned + hot_humor + deep_excerpt + logic + critical_x2 + fan + urge + philosophy",
+    "redaction": "nicknames_replaced; no_urls; film_titles_generalized",
+    "note": "10 records cover field types; not full-site statistics."
+  },
+  "records": [
+    {
+      "comment_id": "c000",
+      "parent_id": null,
+      "level": "pinned_creator",
+      "user_redacted": "creator_a",
+      "like_count": 2497,
+      "reply_count": 78,
+      "tags": ["structure", "creator_intent"],
+      "content_redacted": "【结构摘要】创作者说明：曾为本期撰写三条路线——(1)社会恐慌与司法政治案例研究；(2)东方宗教典籍视角；(3)西方神学文本视角；成片采用其中一条主线，正片标注参考文献，并说明分集与创作取舍。"
+    },
+    {
+      "comment_id": "c002",
+      "parent_id": null,
+      "level": "main",
+      "user_redacted": "user_003",
+      "like_count": 9983,
+      "reply_count": 195,
+      "tags": ["hot", "humor", "up_liked"],
+      "content_redacted": "【玩梗】用幽默口吻重写结局：若角色更早识破「女山神」与某关键人物的关联，悲剧或可避免。评论区大量附和「天才」「笑死」。"
+    },
+    {
+      "comment_id": "c001",
+      "parent_id": null,
+      "level": "main",
+      "user_redacted": "user_001",
+      "like_count": 291,
+      "reply_count": 82,
+      "tags": ["deep_analysis", "numbered"],
+      "content_redacted": "【节选】长评以编号展开：质疑片中巫觋、白衣女、日式角色与「虚空主」的动机与仪式逻辑，并讨论保护神与恶鬼边界。"
+    },
+    {
+      "comment_id": "c004",
+      "parent_id": null,
+      "level": "main",
+      "user_redacted": "user_005",
+      "like_count": 29,
+      "reply_count": 23,
+      "tags": ["logic_question", "structure"],
+      "content_redacted": "追问剧情机制：某次仪式中巫觋、白衣女与「虚空主」的因果是否自洽；认为若按片中规则，角色应有更安全的选择。"
+    },
+    {
+      "comment_id": "c006",
+      "parent_id": null,
+      "level": "main",
+      "user_redacted": "user_007",
+      "like_count": 0,
+      "reply_count": 0,
+      "tags": ["critical", "negative"],
+      "content_redacted": "批评：解读像「流水账」，算不上拉片式分析，信息组织松散。"
+    },
+    {
+      "comment_id": "c009",
+      "parent_id": null,
+      "level": "main",
+      "user_redacted": "user_010",
+      "like_count": 0,
+      "reply_count": 0,
+      "tags": ["critical", "consistency"],
+      "content_redacted": "觉得韩国民俗背景却大量使用圣经式神论框架较突兀，文化逻辑跳跃。"
+    },
+    {
+      "comment_id": "c003",
+      "parent_id": null,
+      "level": "main",
+      "user_redacted": "user_004",
+      "like_count": 21,
+      "reply_count": 0,
+      "tags": ["fan_loyal", "emotional"],
+      "content_redacted": "平时不敢看恐怖片，但把该创作者往期解说几乎都看完；终于等到更新，表达兴奋。"
+    },
+    {
+      "comment_id": "c011",
+      "parent_id": null,
+      "level": "main",
+      "user_redacted": "user_012",
+      "like_count": 1,
+      "reply_count": 1,
+      "tags": ["urge_update", "series"],
+      "content_redacted": "询问下集何时更新；并希望创作者解说另一部宗教题材电影。"
+    },
+    {
+      "comment_id": "c012",
+      "parent_id": null,
+      "level": "main",
+      "user_redacted": "user_014",
+      "like_count": 2,
+      "reply_count": 0,
+      "tags": ["urge_update", "waiting"],
+      "content_redacted": "催更语气强烈：等待已久，询问何时做好。"
+    },
+    {
+      "comment_id": "c015",
+      "parent_id": null,
+      "level": "main",
+      "user_redacted": "user_017",
+      "like_count": 1,
+      "reply_count": 0,
+      "tags": ["philosophy", "fate"],
+      "content_redacted": "自称不太信这些，但感叹命运神奇；担心轻易相信某套解释会让人失去属于自己的判断。"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "aransee",
+  "version": "0.1.0",
+  "description": "AranSee Skill — tri-axis content diagnosis (X/Y/Z) for creators; prompts + protocol",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "SKILL.md",
+    "AGENTS.md",
+    "prompts/",
+    "references/",
+    "docs/DATA_CONTRACT.md",
+    "docs/PRODUCT_AXES.md",
+    "docs/PRODUCT_BOUNDARIES.md",
+    "docs/BRAND.md"
+  ],
+  "keywords": [
+    "cursor",
+    "claude-code",
+    "agent-skill",
+    "content-analysis",
+    "creator-tools"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

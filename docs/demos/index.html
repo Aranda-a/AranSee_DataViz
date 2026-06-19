@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AranSee · 在线展示</title>
+  <style>
+    :root { --bg: #0f1410; --fg: #e8f0e4; --accent: #8bcf6a; --muted: #9aa89a; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; font-family: system-ui, sans-serif;
+      background: var(--bg); color: var(--fg);
+      display: flex; align-items: center; justify-content: center; padding: 2rem;
+    }
+    main { max-width: 32rem; width: 100%; }
+    h1 { font-size: 1.5rem; font-weight: 600; margin: 0 0 0.5rem; color: var(--accent); }
+    p { color: var(--muted); line-height: 1.55; margin: 0 0 1.25rem; }
+    a.demo {
+      display: block; padding: 1rem 1.1rem; margin-bottom: 0.75rem;
+      border: 1px solid rgba(139, 207, 106, 0.35); border-radius: 12px;
+      color: var(--fg); text-decoration: none; background: rgba(139, 207, 106, 0.06);
+    }
+    a.demo:hover { border-color: var(--accent); }
+    a.demo strong { display: block; margin-bottom: 0.25rem; }
+    a.demo span { font-size: 0.875rem; color: var(--muted); }
+    .tag { font-size: 0.75rem; color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>AranSee 展示沙盘</h1>
+    <p>预烘焙静态页，无需安装。需联网加载 Three.js。数据已脱敏，仅供体验协议与场域形态。</p>
+    <a class="demo" href="folk_daoxi_series_01/aransee_sandbox.html">
+      <span class="tag">推荐 · 系列双锚</span>
+      <strong>民俗恐怖解说 · 同场 A / B</strong>
+      <span>切换锚点看诊断、模拟与场层变化</span>
+    </a>
+    <a class="demo" href="folk_film_commentary_01/aransee_sandbox.html">
+      <strong>旗舰单点 · 锚点 A</strong>
+      <span>单帖三轴诊断 + 策略模拟</span>
+    </a>
+  </main>
+</body>
+</html>
