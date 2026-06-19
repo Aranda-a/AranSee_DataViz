@@ -1,9 +1,9 @@
 # AranSee_DataViz
 
-<div align="right"><a href="https://aranda-a.github.io/AranSee_DataViz/">中 · EN</a></div>
+<div align="right"><strong>中文</strong> · <a href="README.en.md">English</a></div>
 
 <p align="center">
-  <img src="docs/brand/googo_ip_static.svg" width="132" alt="Googo" />
+  <img src="docs/brand/googo_ip.png" width="132" alt="Googo" />
 </p>
 
 **AranSee** 是面向创作者的 **AI 内容诊断产品**：帖文与评论场 → **X/Y/Z 三轴判断**，可交互 **2.5D 沙盘**让落位一眼能看见。  
@@ -71,10 +71,8 @@ AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化
 
 | 展示 | 链接 |
 |------|------|
-| **系列双锚（推荐）** | [打开沙盘](https://aranda-a.github.io/AranSee_DataViz/demos/folk_daoxi_series_01/aransee_sandbox.html) |
-| 入口导航 | [展示首页](https://aranda-a.github.io/AranSee_DataViz/demos/) |
-
-GitHub Pages：`https://aranda-a.github.io/AranSee_DataViz/demos/`
+| **系列双锚（推荐）** | [立即探索](https://aranda-a.github.io/AranSee_DataViz/demos/folk_daoxi_series_01/aransee_sandbox.html) |
+| 入口导航 | [对比数据系列探索](https://aranda-a.github.io/AranSee_DataViz/demos/) |
 
 ---
 
