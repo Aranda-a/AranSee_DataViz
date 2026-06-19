@@ -1,7 +1,7 @@
 # AranSee_DataViz
 
 <p align="center">
-  <img src="docs/brand/googo_ip_static.svg" width="132" alt="Googo" />
+  <img src="docs/brand/googo_ip.png" width="132" alt="Googo" />
 </p>
 
 **AranSee** 是面向创作者的 **AI 内容诊断产品**：帖文与评论场 → **X/Y/Z 三轴判断**，可交互 **2.5D 沙盘**让落位一眼能看见。  
@@ -20,7 +20,7 @@
 
 ---
 
-## 与其他 AI 工具分析有何不同
+## 与其他 AI 分析工具有何不同
 
 AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化**——不是留在对话框里的长报告。
 
@@ -49,7 +49,7 @@ AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化
 <table align="center">
   <tr>
     <td align="center"><img src="release/github/demos/screenshots/field_dark_roi.png" alt="暗色 · 诊断与 ROI" width="400" height="222" style="display:block" /></td>
-    <td align="center"><img src="release/github/demos/screenshots/field_dark_series_ab.png" alt="暗色 · 系列双锚" width="400" height="222" style="display:block" /></td>
+    <td align="center"><img src="release/github/demos/screenshots/field_dark_series_ab.png?v=2" alt="暗色 · 系列双锚" width="400" height="222" style="display:block" /></td>
   </tr>
   <tr>
     <td align="center" colspan="2"><sub>暗色 · 三轴场 + 洞察卡 + 模拟 ROI · 系列锚点 A/B 切换</sub></td>
@@ -75,7 +75,7 @@ AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化
 | 入口导航 | [展示首页](https://aranda-a.github.io/AranSee_DataViz/demos/) |
 | Googo 交互 IP | [交互页](https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html) |
 
-<p align="center"><sub>若链接暂不可用：仓库 <b>Settings → Pages → Source: GitHub Actions</b>，推送后等待 1–2 分钟部署。</sub></p>
+<p align="center"><sub>Pages 未开启时：仓库 <b>Settings → Pages → Deploy from a branch → Branch: <code>main</code> → Folder: <code>/docs</code> → Save</b>，约 1–2 分钟后生效。</sub></p>
 
 ---
 
