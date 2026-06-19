@@ -1,7 +1,9 @@
 # AranSee_DataViz
 
+<div align="right"><a href="https://aranda-a.github.io/AranSee_DataViz/">中 · EN</a></div>
+
 <p align="center">
-  <img src="docs/brand/googo_ip.png" width="132" alt="Googo" />
+  <img src="docs/brand/googo_ip_static.svg" width="132" alt="Googo" />
 </p>
 
 **AranSee** 是面向创作者的 **AI 内容诊断产品**：帖文与评论场 → **X/Y/Z 三轴判断**，可交互 **2.5D 沙盘**让落位一眼能看见。  
@@ -40,7 +42,7 @@ AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化
 | 清单干货 / 钩子向 | 结构带是否清晰、收藏动机来自哪一轴 |
 | 收官带货 / 置顶转化 | 商业沉积是否加重、情感是否仍在线 |
 
-> v1：**一次只处理一条帖**（每组 X/Y/Z 各 0–100）。展示案例以中文自媒体帖文为主。
+> v1：**目前版本一次只处理一条帖**（每组 X/Y/Z 各 0–100）。公开展示含**系列双锚样例**（同系列两篇帖），仅作场层对比演示，**不代表 Skill 已开放系列批量诊断**；正式能力仍以单帖为主。展示案例取自**公开自媒体作品**（脱敏抽样）。
 
 ---
 
