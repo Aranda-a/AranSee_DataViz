@@ -67,15 +67,12 @@ AranSee 把模型输出落成**协议化分数**，再驱动**确定性可视化
 
 ## 在线试玩
 
-无需安装，点击下方链接进入 Pages 沙盘（非仓库源码页）。
-
 | 展示 | 链接 |
 |------|------|
 | **系列双锚（推荐）** | [打开沙盘](https://aranda-a.github.io/AranSee_DataViz/demos/folk_daoxi_series_01/aransee_sandbox.html) |
 | 入口导航 | [展示首页](https://aranda-a.github.io/AranSee_DataViz/demos/) |
-| Googo 交互 IP | [交互页](https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html) |
 
-<p align="center"><sub>Pages 未开启时：仓库 <b>Settings → Pages → Deploy from a branch → Branch: <code>main</code> → Folder: <code>/docs</code> → Save</b>，约 1–2 分钟后生效。</sub></p>
+GitHub Pages：`https://aranda-a.github.io/AranSee_DataViz/demos/`
 
 ---
 
