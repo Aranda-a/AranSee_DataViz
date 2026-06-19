@@ -3,9 +3,9 @@
 <div align="right"><a href="README.md">中文</a> · <strong>English</strong></div>
 
 <div align="center">
-  <a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html"><img src=".github/assets/googo_ip.svg" alt="Googo" width="132" /></a>
+  <img src=".github/assets/googo_ip.svg" width="132" alt="Googo" />
   <br/>
-  <sub>Click to interact · <a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html">interactive version</a></sub>
+  <sub><a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html">Click to interact (Googo)</a></sub>
 </div>
 
 **AranSee** is an **AI content diagnosis** product for creators: post + comment field → **X/Y/Z tri-axis scores**, with an interactive **2.5D sandbox** so placement is visible at a glance.  

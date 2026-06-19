@@ -3,9 +3,9 @@
 <div align="right"><strong>中文</strong> · <a href="README.en.md">English</a></div>
 
 <div align="center">
-  <a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html"><img src=".github/assets/googo_ip.svg" alt="Googo" width="132" /></a>
+  <img src=".github/assets/googo_ip.svg" width="132" alt="Googo" />
   <br/>
-  <sub>点击交互 · <a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html">interactive version</a></sub>
+  <sub><a href="https://aranda-a.github.io/AranSee_DataViz/brand/ip-mark.html">点击交互（Googo）</a></sub>
 </div>
 
 **AranSee** 是面向创作者的 **AI 内容诊断产品**：帖文与评论场 → **X/Y/Z 三轴判断**，可交互 **2.5D 沙盘**让落位一眼能看见。  
