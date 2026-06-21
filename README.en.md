@@ -9,9 +9,9 @@
 </div>
 
 **AranSee** is an **AI content diagnosis** product for creators: post + comment field → **X/Y/Z tri-axis scores**, with an interactive **2.5D sandbox** so placement is visible at a glance.  
-Install as a Cursor Skill — **AI reads and scores**, **the sandbox presents and simulates**; not a long chat report, not an agent plugin.
+**Open this repo** in Cursor / Claude Code (in-repo Skill instructions) — **AI reads and scores**; **interactive sandbox and strategy simulation** are in [Try online](#try-online) below (pre-baked demos). Not a long chat report, not an agent plugin.
 
-Helps creators diagnose a **single post + comment field**: structure / commercial / emotional placement, short insights, strategy simulation, and ROI hints.
+Helps creators diagnose a **single post + comment field**: structure / commercial / emotional placement and short insights (Skill outputs `analysis.json`); **strategy sliders and ROI hints** are in the pre-baked sandbox demos.
 
 **AI content diagnosis** | **Cursor · Claude Code Skill** | **Not a long chat report** | **Score-driven field · iterate against drafts**
 
@@ -35,25 +35,31 @@ Helps creators diagnose a **single post + comment field**: structure / commercia
 
 ## How AranSee differs from other AI analytics tools
 
-AranSee turns model output into **protocol scores** that drive **deterministic visualization** — not paragraphs left in the chat.
+AranSee addresses a concrete gap: **complex narrative + real comment fields** are hard to align on quickly—raw material is messy and verbal debriefs eat time. It turns your post and pasted comment sample into **comparable tri-axis coordinates** (`analysis.json`); the full product adds visual comparison on top. Not a long chat report—and **not viral prediction or guaranteed growth**.
 
-1. **Visible** — placement in tri-axis space: structure belt, sediment field, resonance flow; not an abstract total in prose  
-2. **Comment field as layer two** — for commentary and commerce content, comment types often explain the field more cheaply than the post alone  
-3. **Short and actionable** — insight + next step + one-line ROI, not a PDF-style report  
-4. **Draft iteration** — re-run the same diagnosis in the sandbox to simulate “if this axis moves, where does the field shift?”
+1. **Skip the essay** — the usual move is Chat spitting out thousands of words of “full analysis”; AranSee gives **X structure / Y commercial / Z emotional** scores plus a few lines you can draft from  
+2. **Skip engagement-only reads** — dashboards say hot or not; AranSee reads **what comments are doing**—questions, memes, purchase intent, or pure thanks  
+3. **Skip the single total score** — structure, commercial, and emotional land separately, so you know whether to fix the narrative or the conversion—not a vague “content is fine”  
+4. **Iterate against drafts** — revise the post and re-score; check whether scores moved toward your goal (Skill → JSON; what the field looks like is in the [Try online](#try-online) demo)
+
+The **public GitHub repo** covers **structured diagnosis** (Skill → JSON). **Field rendering, strategy sliders, and ROI simulation** are in the [Try online](#try-online) pre-baked demos—to show what the full product looks like.
 
 ---
 
 ## Who it’s for
 
-| Content format | What you see clearly |
-|----------------|----------------------|
-| Deep commentary / film review | Structure stability; comments as follow-ups vs memes |
-| Live clips / emotional | Resonance vs reach; weak commercial layer |
-| Listicles / hooks | Structure belt clarity; which axis drives saves |
-| Closing commerce / pinned conversion | Commercial sediment vs emotional presence |
+Small creator teams who **posted but don’t know what to change next**—AranSee helps you align on judgment, not on growth guarantees:
 
-> v1: **The current release handles one post at a time** (each X/Y/Z group scored 0–100). Public demos include a **dual-anchor series sample** (two posts in one series) for same-field comparison only — **not series batch diagnosis in Skill**. Production capability remains single-post first. Samples are from **public creator works** (de-identified).
+| Where you’re stuck | Typical content | What AranSee clarifies | What the public Skill gives |
+|--------------------|-----------------|------------------------|----------------------------|
+| Engagement is OK, but title vs commerce hook is unclear | Listicles, live clips | Whether Y commercial or Z emotional is lagging | Tri-axis + `next_step` |
+| Comments are all praise—worried structure or info still has gaps | Science outreach, soft seeding | X structure + questions vs pure thanks in comments | Same |
+| Long commentary / series—memes and logic fights in the thread | Deep commentary, reviews | X structure + split comment-field types | Same |
+| Need to explain the diagnosis to clients or teammates—not just chat logs | Any single post | Tri-axis placement in one aligned view | JSON on file; **visuals** in demo |
+
+**Examples (public demo case types, de-identified):** Folk-horror **deep commentary**—hot memes and logic challenges coexist; the post alone can overstate structural praise. **Holiday market science post**—comments full of “so useful”; Z runs high while Y may stay light—don’t misread it as commerce content.
+
+> v1: **The current release handles one post at a time** (each X/Y/Z group scored 0–100). Public demos include a **dual-anchor series sample** (two posts in one series) for same-field comparison only — **not series batch diagnosis in Skill**. Production capability remains single-post first. Samples are from **public creator works** (de-identified). **The public Skill delivers diagnostic JSON**; series compare, sandbox, and sliders appear in demo form.
 
 ---
 
@@ -105,6 +111,10 @@ Use AranSee to review this commentary: where do structure, commercial, and emoti
 ```
 
 Data contract: [`docs/DATA_CONTRACT.md`](docs/DATA_CONTRACT.md)
+
+> **Public repo v1 scope:** After installing the Skill, you get a contract-compliant **`analysis.json`** (tri-axis scores + short insight + next step). Screenshots on this page and the **2.5D field, strategy sliders, and ROI simulation** in [Try online](#try-online) come from **pre-baked demo HTML** to show product shape; they **will not** auto-generate an interactive sandbox after you paste content. Rendering your own JSON into a sandbox requires the full dev repo (render pipeline not shipped with the public Skill). See [`release/github/MANIFEST.md`](release/github/MANIFEST.md).
+
+> **Comment sampling note:** Diagnosis is based on a **representative comment sample** you paste (roughly 8–15 items; mix hot comments, author replies, questions, memes or criticism if any)—**not** platform-wide comment statistics. Praise-only samples tend to inflate Z; omitting pushback can inflate X; scores may shift if you change the sample. Public demo cases document sampling in each case’s `SAMPLING.md` (when shipped).
 
 ---
 

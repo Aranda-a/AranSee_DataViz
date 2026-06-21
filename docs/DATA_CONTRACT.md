@@ -29,6 +29,12 @@
 - 一致性的含义：**同一套展示轴定义 + 同一 prompt rubric** 评不同帖，使 76 与 72 可比较
 - 系列/多点沙盘：各锚点 **各保留自己的三分**；空间位置由 `scores_to_position` 映射，叙事层默认只跟 `points[0]`
 
+### 评论样本（非全量）
+
+- 算分输入为**用户粘贴或案例包中的脱敏评论样本**，代表评论场**类型分布**，**不代表**帖子下全部评论的统计结论
+- 样本构成会影响 **Z 情感**（表扬/玩梗占比）与 **X 结构**（追问、争议是否入样）；换一批样本，三分可能变化
+- Agent 不得在 `insight` 中暗示已分析「全部评论」或「所有粉丝」；若样本明显偏斜，应提醒用户补样或在洞察中点明局限
+
 ```json
 {
   "status": "success",
@@ -74,19 +80,18 @@
 
 ---
 
-## 管道命令（folk 案例）
+## 渲染管道（完整开发仓 · 非公开 Skill）
+
+公开 Skill 安装后 **只产出 `analysis.json`**。下列命令仅在完整本地开发仓 `AranSee-v3` 内可用（`scripts/` 未随公开 Skill 发布）：
 
 ```bash
-python scripts/sandbox_bridge.py --input .../analysis.json --output .../sandbox.json
-python scripts/sim_roi_presets.py --sandbox .../sandbox.json --inplace
-python scripts/sandbox_renderer.py --data .../sandbox.json --output .../aransee_sandbox.html
+python scripts/pipeline.py json --input .../analysis.json --output-dir .../output
 ```
 
-或一键：`python scripts/pipeline.py json --input .../analysis.json`
+公开仓用户：用 README [在线试玩](../README.md#在线试玩) 或 `docs/demos/` 中的**预烘焙 HTML** 理解沙盘形态；**不要**在公开 clone 里运行上述命令。详见 [`release/github/MANIFEST.md`](../release/github/MANIFEST.md)。
 
 ---
 
 ## 视觉参数
 
-分数 → 运动学由 `sandbox_renderer.py` 内 `DATA_NARRATIVE` / `compute*Kinematics` 驱动，**不经过 LLM**。  
-详见 `docs/VISUAL_ARCHITECTURE.md`。
+分数 → 运动学由完整开发仓内 `sandbox_renderer.py` 的 `DATA_NARRATIVE` / `compute*Kinematics` 驱动，**不经过 LLM**（公开 Skill 包不含渲染器与 `docs/VISUAL_ARCHITECTURE.md`）。

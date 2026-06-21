@@ -36,16 +36,16 @@
 
 **本案例三轴（路径 1）：** X 76 · Y 81 · Z 84（整帖单点，基于 raw 样本与摘要综合）
 
-## 路径 1 → 出图（推荐命令）
+## 出图说明
 
-```bash
-cd AranSee-v3
-# 1. Agent 读 prompts/score_content.system.md + raw 下两文件 → 保存 analysis.json
-# 2. 渲染
-python scripts/pipeline.py json --input ./assets/cases/folk_film_commentary_01/output/analysis.json --output-dir ./assets/cases/folk_film_commentary_01/output
-```
+| 环境 | 如何查看沙盘 |
+|------|-------------|
+| **公开 GitHub 仓** | 打开本目录 `output/aransee_sandbox.html`，或 Pages [在线试玩](https://aranda-a.github.io/AranSee_DataViz/demos/folk_film_commentary_01/aransee_sandbox.html)（**预烘焙**，非实时渲染） |
+| **完整开发仓** | Agent 产出 `analysis.json` 后，在 `AranSee-v3` 内执行 `python scripts/pipeline.py json --input ./assets/cases/folk_film_commentary_01/output/analysis.json --output-dir ./assets/cases/folk_film_commentary_01/output` |
 
-自动生成：`output/tabular_replay.json`（路径 2 仅在同一份已算分数据上复跑 HTML 时用）。
+公开 Skill 用户：**不要**在公开 clone 里运行 `pipeline.py`（脚本未发布）。路径 2 的 `tabular_replay.json` 仅完整开发仓管道自动生成。详见 [`release/github/MANIFEST.md`](../../../release/github/MANIFEST.md)。
+
+**抽样声明：** 本案例 `raw/comments_sample.json` 为 **10 条类型样本**，用于代表评论场分布，**不是**约 2.9 万全量评论的统计结论；换抽样，三轴可能变化。抽样清单见同目录 `SAMPLING.md`（若公开仓含该文件）。
 
 ## 场域特征（供阅读案例者理解）
 
