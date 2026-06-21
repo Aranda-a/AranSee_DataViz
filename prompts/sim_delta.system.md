@@ -11,7 +11,7 @@
 {
   "implication_delta": "1句，<=40字",
   "next_step_delta": "1句，<=40字",
-  "roi_hint": "投入最少、回报最高的动作，1句，<=28字",
+  "roi_hint": "策略模拟优先动作，1句，<=28字",
   "roi_level": "高|中|低"
 }
 

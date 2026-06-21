@@ -70,7 +70,7 @@
 | `display_axes` | bridge | 图例文案 |
 | `insight_card` | `sim_roi_presets.py` 或 Agent | 右侧内容诊断卡（总分总） |
 | `credibility_card` | `sim_roi_presets.py` | 左下 i 提示（短句） |
-| `sim_roi_presets` | `sim_roi_presets.py` | 策略滑块就近匹配 ROI |
+| `sim_roi_presets` | `sim_roi_presets.py` | 策略滑块就近匹配 `roi_hint` |
 
 离线缓存文件（同目录，便于 diff）：
 

@@ -11,7 +11,7 @@
 **AranSee** is an **AI content diagnosis** product for creators: post + comment field → **X/Y/Z tri-axis scores**, with an interactive **2.5D sandbox** so placement is visible at a glance.  
 **Open this repo** in Cursor / Claude Code (in-repo Skill instructions) — **AI reads and scores**; **interactive sandbox and strategy simulation** are in [Try online](#try-online) below (pre-baked demos). Not a long chat report, not an agent plugin.
 
-Helps creators diagnose a **single post + comment field**: structure / commercial / emotional placement and short insights (Skill outputs `analysis.json`); **strategy sliders and ROI hints** are in the pre-baked sandbox demos.
+Helps creators diagnose a **single post + comment field**: structure / commercial / emotional placement and short insights (Skill outputs `analysis.json`); **strategy sliders and strategy sim priority** are in the pre-baked sandbox demos.
 
 **AI content diagnosis** | **Cursor · Claude Code Skill** | **Not a long chat report** | **Score-driven field · iterate against drafts**
 
@@ -42,7 +42,7 @@ AranSee addresses a concrete gap: **complex narrative + real comment fields** ar
 3. **Skip the single total score** — structure, commercial, and emotional land separately, so you know whether to fix the narrative or the conversion—not a vague “content is fine”  
 4. **Iterate against drafts** — revise the post and re-score; check whether scores moved toward your goal (Skill → JSON; what the field looks like is in the [Try online](#try-online) demo)
 
-The **public GitHub repo** covers **structured diagnosis** (Skill → JSON). **Field rendering, strategy sliders, and ROI simulation** are in the [Try online](#try-online) pre-baked demos—to show what the full product looks like.
+The **public GitHub repo** covers **structured diagnosis** (Skill → JSON). **Field rendering, strategy sliders, and strategy sim priority** are in the [Try online](#try-online) pre-baked demos—to show what the full product looks like.
 
 ---
 
@@ -67,11 +67,11 @@ Small creator teams who **posted but don’t know what to change next**—AranSe
 
 <table align="center">
   <tr>
-    <td align="center"><img src="release/github/demos/screenshots/field_dark_roi.png" alt="Dark · diagnosis & ROI" width="400" height="222" style="display:block" /></td>
+    <td align="center"><img src="release/github/demos/screenshots/field_dark_roi.png" alt="Dark · insight & strategy sim priority" width="400" height="222" style="display:block" /></td>
     <td align="center"><img src="release/github/demos/screenshots/field_dark_series_ab.png?v=2" alt="Dark · series dual anchor" width="400" height="222" style="display:block" /></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><sub>Dark · tri-axis field + insight card + sim ROI · series anchors A/B</sub></td>
+    <td align="center" colspan="2"><sub>Dark · tri-axis field + insight card + strategy sim priority · series anchors A/B</sub></td>
   </tr>
   <tr>
     <td align="center"><img src="release/github/demos/screenshots/field_light_read_a.png" alt="Light · close read" width="400" height="222" style="display:block" /></td>
@@ -112,7 +112,7 @@ Use AranSee to review this commentary: where do structure, commercial, and emoti
 
 Data contract: [`docs/DATA_CONTRACT.md`](docs/DATA_CONTRACT.md)
 
-> **Public repo v1 scope:** After installing the Skill, you get a contract-compliant **`analysis.json`** (tri-axis scores + short insight + next step). Screenshots on this page and the **2.5D field, strategy sliders, and ROI simulation** in [Try online](#try-online) come from **pre-baked demo HTML** to show product shape; they **will not** auto-generate an interactive sandbox after you paste content. Rendering your own JSON into a sandbox requires the full dev repo (render pipeline not shipped with the public Skill). See [`release/github/MANIFEST.md`](release/github/MANIFEST.md).
+> **Public repo v1 scope:** After installing the Skill, you get a contract-compliant **`analysis.json`** (tri-axis scores + short insight + next step). Screenshots on this page and the **2.5D field, strategy sliders, and strategy sim priority** in [Try online](#try-online) come from **pre-baked demo HTML** to show product shape; they **will not** auto-generate an interactive sandbox after you paste content. Rendering your own JSON into a sandbox requires the full dev repo (render pipeline not shipped with the public Skill). See [`release/github/MANIFEST.md`](release/github/MANIFEST.md).
 
 > **Comment sampling note:** Diagnosis is based on a **representative comment sample** you paste (roughly 8–15 items; mix hot comments, author replies, questions, memes or criticism if any)—**not** platform-wide comment statistics. Praise-only samples tend to inflate Z; omitting pushback can inflate X; scores may shift if you change the sample. Public demo cases document sampling in each case’s `SAMPLING.md` (when shipped).
 

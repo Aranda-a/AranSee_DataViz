@@ -353,7 +353,7 @@
             word-break: keep-all; text-wrap: pretty; }
         .insight-desc { font-size: 12px; color: var(--text-muted); line-height: 1.58;
             word-break: keep-all; text-wrap: pretty; }
-        .insight-sim-line { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--glass-border); color: var(--text); }
+        .insight-sim-line { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--glass-border); color: var(--text); word-break: break-word; overflow-wrap: anywhere; }
         .sim-panel {
             position: fixed; left: 12px; bottom: 12px; z-index: 150;
             width: 260px; padding: 14px; border-radius: 14px;
@@ -373,6 +373,7 @@
         .sim-footnote {
             font-size: 10px; color: var(--text-muted); line-height: 1.45;
             margin: 2px 0 10px; display: none;
+            word-break: break-word; overflow-wrap: anywhere; white-space: normal;
         }
         .sim-panel.simulating .sim-footnote { display: block; }
         .sim-reset-btn {
@@ -1748,8 +1749,8 @@
                 axis_x: 'X · 结构稳定性', axis_y: 'Y · 商业转化重力', axis_z: 'Z · 情感共鸣活性',
                 sim_x: 'X · 结构稳定性', sim_y: 'Y · 商业转化重力', sim_z: 'Z · 情感共鸣活性',
                 zoom_hint: '滚轮缩放 · 拖拽旋转', next_step: '下一步：',
-                roi_priority: 'ROI优先：', sim_change: '模拟变化：',
-                roi_preset_missing: '暂无模拟ROI预设，请运行 sim_roi_presets.py',
+                roi_priority: '策略模拟优先：', sim_change: '模拟变化：',
+                roi_preset_missing: '暂无策略模拟优先预设',
                 cred_slider: '拖动策略滑块只预览场域变化，不会重新打分。',
                 cred_sparse: '数据点较少，椭球场仅供空间感知参考。',
                 series_pick_anchor: '切换锚点后，场粒子/结构带/沉积/椭球随该锚点三轴刷新',
@@ -1786,8 +1787,8 @@
                 axis_x: 'X · Structure', axis_y: 'Y · Commercial Gravity', axis_z: 'Z · Emotional Resonance',
                 sim_x: 'X · Structure', sim_y: 'Y · Commercial Gravity', sim_z: 'Z · Emotional Resonance',
                 zoom_hint: 'Scroll zoom · drag orbit', next_step: 'Next: ',
-                roi_priority: 'ROI: ', sim_change: 'Sim: ',
-                roi_preset_missing: 'No sim ROI presets. Run sim_roi_presets.py',
+                roi_priority: 'Strategy sim priority: ', sim_change: 'Sim: ',
+                roi_preset_missing: 'No strategy sim priority presets.',
                 cred_slider: 'Strategy sliders preview the field only—they do not re-score.',
                 cred_sparse: 'Sparse data points; ellipsoid is for spatial reference only.',
                 series_pick_anchor: 'Switching anchors refreshes particles, threads, deposit & ellipsoid to that XYZ',

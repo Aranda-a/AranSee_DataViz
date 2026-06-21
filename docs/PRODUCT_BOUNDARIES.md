@@ -8,8 +8,8 @@
 
 | 项 | 原因 |
 |----|------|
-| 长策略报告 | 用户要短诊断 + ROI 一行，不要啰嗦 PDF 式报告 |
-| 浏览器内实时调 LLM | 裸 HTML 无法稳定持 Key；ROI/诊断走离线预设或构建期生成 |
+| 长策略报告 | 用户要短诊断 + 策略模拟优先一行，不要啰嗦 PDF 式报告 |
+| 浏览器内实时调 LLM | 裸 HTML 无法稳定持 Key；策略模拟优先/诊断走离线预设或构建期生成 |
 | 自建 HTTP 算分服务 | 用户选择 A 轨本地 + 可选用户自带 Agent（B 轨） |
 | 把 Googo 说成评分来源 | IP 是向导，三轴来自内容协议 |
 | 向用户暴露内部 rubric / 证据链 | 见 `insight_builder`、prompt 约束 |
@@ -22,7 +22,7 @@
 
 - **单条内容**算分 + 短洞察（`prompts/score_content.system.md`）
 - 本地 pipeline → 单文件 HTML demo
-- 策略模拟：滑块改分 → 场域预览；ROI 查 `sim_roi_presets` 表
+- 策略模拟：滑块改分 → 场域预览；策略模拟优先查 `sim_roi_presets` 表（`roi_hint`）
 - 叙事三层可开关：结构带 / 沉积场 / 共振流
 
 ## v1 用户输入暂不做
