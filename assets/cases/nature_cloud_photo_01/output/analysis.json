@@ -1,0 +1,68 @@
+{
+  "status": "success",
+  "analysis_meta": {
+    "title": "夏日云朵四格氛围短片",
+    "title_en": "Summer Clouds · Four-Frame Mood Clip",
+    "vibe_tag": "审美共鸣·自然摄影",
+    "vibe_tag_en": "Aesthetic resonance · nature photo",
+    "case_id": "nature_cloud_photo_01",
+    "source": "path1_agent",
+    "selection_method": "external_tester_photography_account",
+    "captured_period": "2025-summer"
+  },
+  "coordinates": {
+    "X": {
+      "score": 69,
+      "visual": "Lattice_Semi",
+      "label": "结构稳定性",
+      "detail": "四格时序+一句诗性文案，结构轻但完整"
+    },
+    "Y": {
+      "score": 24,
+      "visual": "Depth_Shallow",
+      "label": "商业转化重力",
+      "detail": "纯审美分享，无转化设计"
+    },
+    "Z": {
+      "score": 88,
+      "visual": "Fluid_Luminous",
+      "label": "情感共鸣活性",
+      "detail": "陪拍互动热，作者暖回"
+    }
+  },
+  "render_params": {
+    "material": "glass_and_fluid",
+    "lighting": "neon_accent",
+    "deformation_scale": 1.0
+  },
+  "insight": {
+    "headline": "内容空间诊断",
+    "summary": "诗性一句配四格云，场子主要在共鸣不在卖货。",
+    "points": [
+      "结构：白天到日落四格递进，文案点题；没有教程式信息链，靠画面自洽。",
+      "商业：无产品、无引流话术，属于审美向内容，转化压很轻。",
+      "情感：评论在陪晒云图、表羡慕和点赞，作者逐条暖回，互动质量高。"
+    ],
+    "conclusion": "这条帖赢在氛围和参与感，不是结构干货或带货帖。",
+    "next_step": "下条可固定「陪一张」引导语，或加一句拍摄时段提示，抬一点结构而不破坏氛围。",
+    "insight_brief": "轻结构、低商业、高情感；氛围型云帖，宜延续陪拍互动。",
+    "implication": "诗性一句配四格云，场子主要在共鸣不在卖货。",
+    "next_step_legacy": "下条可固定「陪一张」引导语，或加一句拍摄时段提示，抬一点结构而不破坏氛围。",
+    "sampling_caveat": "基于截图可见评论样本；若未含泛祝福/水评，Z 可能略偏高。",
+    "i18n": {
+      "en": {
+        "headline": "Content Space Diagnosis",
+        "summary": "One poetic line + four cloud frames—the field is resonance, not selling.",
+        "points": [
+          "Structure: Day-to-sunset four-frame beat with a title line; no tutorial chain—frames carry the arc.",
+          "Commercial: No product or funnel copy; aesthetic share with very light conversion pressure.",
+          "Emotion: Companion cloud photos, envy/praise, warm author replies—high interaction quality."
+        ],
+        "conclusion": "This post wins on mood and participation, not dry structure or hard sell.",
+        "next_step": "Lock a “share yours” prompt next time, or add a shoot-time tip to lift structure without killing the vibe.",
+        "insight_brief": "Light structure, low commerce, high emotion—mood cloud post; keep companion-photo loops."
+      }
+    }
+  },
+  "insight_brief": "轻结构、低商业、高情感；氛围型云帖，宜延续陪拍互动。"
+}

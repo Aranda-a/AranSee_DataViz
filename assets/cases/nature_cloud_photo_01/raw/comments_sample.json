@@ -1,0 +1,15 @@
+{
+  "sampling_note": "Type samples only; nicknames redacted. Not full comment population.",
+  "comments": [
+    { "id": "c01", "type": "emoji_praise", "text_redacted": "[emoji praise]", "likes": 3 },
+    { "id": "c02", "type": "blessing", "text_redacted": "好治愈 / 夏天就是这样", "likes": 2 },
+    { "id": "c03", "type": "aspire_to_shoot", "text_redacted": "也想拍到这样的云", "likes": 5 },
+    { "id": "c04", "type": "companion_photo", "text_redacted": "[user shared own cloud photo · 陪一张]", "likes": 8 },
+    { "id": "c05", "type": "companion_photo", "text_redacted": "[another companion cloud share]", "likes": 4 },
+    { "id": "c06", "type": "author_reply", "text_redacted": "[author warm reply encouraging more shares]", "likes": 1 },
+    { "id": "c07", "type": "author_reply", "text_redacted": "[author short encouraging reply]", "likes": 1 },
+    { "id": "c08", "type": "envy_praise", "text_redacted": "绝了 / 好软", "likes": 2 },
+    { "id": "c09", "type": "emoji_praise", "text_redacted": "[heart / cloud emoji]", "likes": 1 },
+    { "id": "c10", "type": "soft_ask", "text_redacted": "傍晚那段光好好看", "likes": 2 }
+  ]
+}

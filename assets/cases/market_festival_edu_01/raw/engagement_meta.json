@@ -1,0 +1,12 @@
+{
+  "snapshot_note": "Post-level aggregates from user page snapshot at capture time; rounded for public case. Not XYZ scores.",
+  "platform": "short_image_post",
+  "selection_method": "homepage_feed_exposure_with_observable_engagement",
+  "selection_rationale": "User encountered post on Xiaohongshu recommendation feed during Dragon Boat Festival season; feed exposure used as convenience pre-filter, not quality certification.",
+  "likes_approx": 36,
+  "favorites_approx": 17,
+  "comments_total_approx": 29,
+  "captured_period": "2025-06",
+  "seasonal_context": "dragon_boat_festival_market_herb_bath",
+  "context": "natural_education_account; curiosity_guide_not_hard_commerce"
+}

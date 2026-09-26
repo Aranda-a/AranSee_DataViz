@@ -8,15 +8,22 @@ You are helping run the **AranSee** content spatialization skill.
 - **Y — 商业转化重力** (internal: 钱)
 - **Z — 情感共鸣活性** (internal: 名)
 
+## Deliverable (public Skill)
+
+**Only** a single `analysis.json` object. See `docs/DELIVERABLES.md`.  
+Do **not** run render/pipeline scripts in the public Skill path.
+
 ## User flow (public Skill)
 
 1. Read `prompts/score_content.system.md` or `prompts/score_table.system.md`
 2. From **user-provided** post + comments (or table), output a **single** `analysis.json` object
 3. Field contract: `docs/DATA_CONTRACT.md`
+4. Optional production loop: `docs/SOP_CONTENT_LOOP.md`（拆解→修文→追更）
 
 Scores reflect a **comment sample the user provides**, not the full comment population. If the sample looks skewed (praise-only, no author replies, no questions), ask for more types or note the limitation in `insight`.
 
-Pre-baked demo HTML: `assets/cases/folk_film_commentary_01/output/aransee_sandbox.html`
+Skill samples (JSON only): `assets/cases/nature_cloud_photo_01/`, `assets/cases/market_festival_edu_01/`  
+Pre-baked demo HTML (showcase, not Skill output): `docs/demos/`
 
 ## Brand / IP
 

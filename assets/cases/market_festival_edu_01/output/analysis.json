@@ -1,0 +1,69 @@
+{
+  "status": "success",
+  "analysis_meta": {
+    "title": "端午菜市场草药好奇心攻略",
+    "title_en": "Dragon Boat Market Herb-Bath Curiosity Guide",
+    "vibe_tag": "自然教育·逛市场",
+    "vibe_tag_en": "Nature education · market walk",
+    "case_id": "market_festival_edu_01",
+    "source": "path1_agent",
+    "selection_method": "homepage_feed_exposure_with_observable_engagement",
+    "captured_period": "2025-06"
+  },
+  "coordinates": {
+    "X": {
+      "score": 71,
+      "visual": "Lattice_Semi",
+      "label": "结构稳定性",
+      "detail": "攻略骨架清楚，地点追问待补"
+    },
+    "Y": {
+      "score": 36,
+      "visual": "Depth_Shallow",
+      "label": "商业转化重力",
+      "detail": "科普引流为主，硬转化轻"
+    },
+    "Z": {
+      "score": 82,
+      "visual": "Fluid_Luminous",
+      "label": "情感共鸣活性",
+      "detail": "感谢型评论多，作者回复热"
+    }
+  },
+  "render_params": {
+    "material": "glass_and_fluid",
+    "lighting": "neon_accent",
+    "deformation_scale": 1.0
+  },
+  "insight": {
+    "headline": "内容空间诊断",
+    "summary": "攻略结构清楚，评论多在夸有用和想来看。",
+    "points": [
+      "结构：见闻引出三步识草，好读；有人追问具体在哪买。",
+      "商业：偏科普与关系维护，没有硬卖，转化压不重。",
+      "情感：「太有用」成批出现，作者热回，还有同城巧合。"
+    ],
+    "conclusion": "这条帖赢在暖场和信息感，不在带货。",
+    "next_step": "下条固定「识草三连问」模板，正文首段补地点或地图指引。",
+    "insight_brief": "攻略结构清楚、评论偏暖；商业轻、情感强；下条补地点闭环。",
+    "implication": "攻略结构清楚，评论偏暖；商业轻、情感强。",
+    "next_step_legacy": "下条固定「识草三连问」模板，正文首段补地点或地图指引。",
+    "sampling_caveat": "基于当前粘贴的 10 条评论样本；若样本偏「太有用」，Z 可能偏高。",
+    "i18n": {
+      "en": {
+        "headline": "Content Space Diagnosis",
+        "summary": "Clear guide structure; comments mostly praise usefulness and wanting to visit.",
+        "points": [
+          "Structure: Personal discovery leads into a three-step herb ID guide; readable, but some ask where to buy.",
+          "Commercial: Science-ed / relationship tone—no hard sell, conversion layer stays light.",
+          "Emotion: Many “so useful” replies, warm author responses, plus same-city coincidence."
+        ],
+        "conclusion": "This post wins on warmth and information value—not on commerce.",
+        "next_step": "Next post: use a fixed “three herb questions” template; add location or map cues in the opening.",
+        "insight_brief": "Solid guide structure, warm comments; light Y, strong Z—close the location loop next.",
+        "sampling_caveat": "Based on a 10-comment paste sample; praise-heavy samples may inflate Z."
+      }
+    }
+  },
+  "insight_brief": "攻略结构清楚、评论偏暖；商业轻、情感强；下条补地点闭环。"
+}

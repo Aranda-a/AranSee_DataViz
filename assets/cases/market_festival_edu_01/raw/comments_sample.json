@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "platform": "short_image_post",
+    "total_comments_approx": 29,
+    "sample_size": 10,
+    "sample_method": "gratitude + author_reply + location_ask + serendipity + aspiration",
+    "redaction": "nicknames_replaced; no_urls; locations_generalized",
+    "sampling_note": "Represents comment-field types in sample only; not full 29-comment statistics. See ../SAMPLING.md."
+  },
+  "records": [
+    {
+      "comment_id": "c001",
+      "tags": ["aspiration", "travel_intent"],
+      "user_redacted": "user_001",
+      "content_redacted": "【向往】表示应该去当地看看；作者回复欢迎每年安排一段时间来考察。"
+    },
+    {
+      "comment_id": "c002",
+      "tags": ["gratitude", "info_value"],
+      "user_redacted": "user_002",
+      "content_redacted": "【有用】「太有用了，终于知道是什么了」；作者回复「很荣幸」。"
+    },
+    {
+      "comment_id": "c003",
+      "tags": ["gratitude", "relief"],
+      "user_redacted": "user_003",
+      "content_redacted": "【有用】「太有用啦！正愁不知道呢」——表达此前信息缺口被补上。"
+    },
+    {
+      "comment_id": "c004",
+      "tags": ["location_ask", "structure"],
+      "user_redacted": "user_004",
+      "content_redacted": "【追问】「这是哪个市场？」——需要具体地点信息。"
+    },
+    {
+      "comment_id": "c005",
+      "tags": ["author_reply", "location"],
+      "user_redacted": "creator_a",
+      "content_redacted": "【作者答】某区某中学附近的小型路边市场（地名已泛化）。"
+    },
+    {
+      "comment_id": "c006",
+      "tags": ["serendipity", "local"],
+      "user_redacted": "user_005",
+      "content_redacted": "【巧合】「太巧了！我今天也去这里买了！！」"
+    },
+    {
+      "comment_id": "c007",
+      "tags": ["author_reply", "community"],
+      "user_redacted": "creator_a",
+      "content_redacted": "【作者答】感叹同城路人因一篇小文联系上，强调缘分与连接感。"
+    },
+    {
+      "comment_id": "c008",
+      "tags": ["first_visit", "humor"],
+      "user_redacted": "user_005",
+      "content_redacted": "【跟进】「哈哈！这可是我第一次去这个市场」——强化巧合与真实消费行为。"
+    },
+    {
+      "comment_id": "c009",
+      "tags": ["gratitude", "pattern_note"],
+      "user_redacted": "user_006",
+      "content_redacted": "【模式】多条评论集中在「有用 / 终于明白 / 正愁不知道」——信息获得感主导（样本内归纳，非逐条原文）。"
+    },
+    {
+      "comment_id": "c010",
+      "tags": ["author_engagement"],
+      "user_redacted": "creator_a",
+      "content_redacted": "【作者风格】逐条回复，语气亲切，主动延展对话（邀请考察、回应巧合）。"
+    }
+  ]
+}

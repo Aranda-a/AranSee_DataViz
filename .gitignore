@@ -19,8 +19,13 @@ __pycache__/
 .venv/
 venv/
 
-# 本地管道输出
+# 本地管道输出（沙盘 HTML 等）
 output/
+# Skill 金样：仅跟踪 analysis.json
+!assets/cases/nature_cloud_photo_01/output/
+!assets/cases/nature_cloud_photo_01/output/analysis.json
+!assets/cases/market_festival_edu_01/output/
+!assets/cases/market_festival_edu_01/output/analysis.json
 
 # 公开同步暂存（由 sync_github_release.py 生成）
 release/github/staging/

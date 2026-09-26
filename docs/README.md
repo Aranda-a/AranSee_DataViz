@@ -7,6 +7,8 @@
 | 文件 | 用途 |
 |------|------|
 | [DATA_CONTRACT.md](./DATA_CONTRACT.md) | `analysis.json` / `sandbox.json` / `meta` 字段与 Y商业·Z情感 轴语义 |
+| [DELIVERABLES.md](./DELIVERABLES.md) | **Skill 唯一交付物** vs 沙盘展示边界 |
+| [SOP_CONTENT_LOOP.md](./SOP_CONTENT_LOOP.md) | 拆解→修文→追更→可选绘图 brief |
 | [PRODUCT_AXES.md](./PRODUCT_AXES.md) | 三轴定义、信号来源、与视觉层对应 |
 | [PRODUCT_BOUNDARIES.md](./PRODUCT_BOUNDARIES.md) | 产品明确「不做」清单 |
 | [DATA_COMPLIANCE.md](./DATA_COMPLIANCE.md) | 数据、版权与展示案例声明 |

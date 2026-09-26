@@ -19,9 +19,12 @@
 | `docs/PRODUCT_AXES.md` | 三轴产品语义 |
 | `docs/PRODUCT_BOUNDARIES.md` | 产品边界 |
 | `docs/DATA_COMPLIANCE.md` | 数据、版权与展示声明 |
-| `NOTICE.md` | 品牌、分许可、协议版本 |
+| `docs/DELIVERABLES.md` | **Skill 交付物边界** |
+| `docs/SOP_CONTENT_LOOP.md` | **拆解→修文→追更 SOP** |
 | `docs/demos/` | **GitHub Pages** 预烘焙沙盘（主 demo：系列双锚） |
 | `docs/index.html` | Pages 根跳转 → `demos/` |
+| `assets/cases/nature_cloud_photo_01/` | Skill 样例 · 外部拍摄账号（JSON only） |
+| `assets/cases/market_festival_edu_01/` | Skill 样例 · 档期科普（JSON only） |
 | `package.json` | npm Skill 子集（无渲染管道） |
 | `.gitignore` | 含 internal 排除规则 |
 
@@ -37,6 +40,10 @@ docs/DATA_CONTRACT.md
 docs/PRODUCT_AXES.md
 docs/BRAND.md
 docs/PRODUCT_BOUNDARIES.md
+docs/DELIVERABLES.md
+docs/SOP_CONTENT_LOOP.md
+assets/cases/nature_cloud_photo_01/
+assets/cases/market_festival_edu_01/
 ```
 
 ---
