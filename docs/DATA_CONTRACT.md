@@ -22,6 +22,28 @@
 
 **v1 用户输入：必须是单个对象（一条帖）。** 不要输出 JSON 数组。仓库内案例包的多点数组仅用于展示 merge。
 
+### 证据不足（v1 阶段 2 · 拆分策略）
+
+| 场景 | `status` | 说明 |
+|------|----------|------|
+| **帖文也无法评**（无主题/正文过短） | `insufficient_evidence` | 格式 B，**无** `coordinates`（见 prompt 格式 B） |
+| **帖文可评 X/Y，Z 缺评论场** | `success` | 格式 A **部分轴**：可评轴正常打分；不足轴 **`score: 0`** + 见下表 |
+
+**单轴字段（`coordinates.X` / `Y` / `Z`）：**
+
+| 字段 | 取值 | 说明 |
+|------|------|------|
+| `score` | 整数 0–100 | 证据不足时 **必须为 0**（禁止 `null`） |
+| `evidence_status` | `ok` \| `insufficient_evidence` | 省略视为 `ok` |
+| `detail` | 字符串 | 证据不足时须含 **「证据待补充」** 及原因；可评轴为口语依据句 |
+| `visual` / `label` | 同既有 | 不足轴按 **score=0** 映射 visual |
+
+**元信息（可选）：** `analysis_meta.pending_axes` 为待补证据轴列表（如 `["Z"]`）。
+
+**格式 B（整包失败）** 仍由 `sandbox_bridge` 拒绝转沙盘；**部分轴 success** 可正常渲染，沙盘 i 提示含 `axis_evidence_pending`。
+
+规则引擎：`scripts/comment_evidence.py` · 写轴：`axis_model.mark_axis_insufficient_evidence`。
+
 ### 度量一致（0–100）
 
 - 每条内容 **独立** 产出 `coordinates.X/Y/Z.score`，整数 **0–100**
@@ -38,11 +60,11 @@
 ```json
 {
   "status": "success",
-  "analysis_meta": { "title": "...", "vibe_tag": "..." },
+  "analysis_meta": { "title": "...", "vibe_tag": "...", "pending_axes": ["Z"] },
   "coordinates": {
-    "X": { "score": 0, "visual": "...", "label": "结构稳定性" },
-    "Y": { "score": 0, "visual": "...", "label": "商业转化重力" },
-    "Z": { "score": 0, "visual": "...", "label": "情感共鸣活性" }
+    "X": { "score": 0, "visual": "...", "label": "结构稳定性", "detail": "...", "evidence_status": "ok" },
+    "Y": { "score": 0, "visual": "...", "label": "商业转化重力", "detail": "...", "evidence_status": "ok" },
+    "Z": { "score": 0, "visual": "...", "label": "情感共鸣活性", "detail": "证据待补充：…", "evidence_status": "insufficient_evidence" }
   },
   "render_params": { "material": "...", "lighting": "...", "deformation_scale": 1.0 },
   "insight": {

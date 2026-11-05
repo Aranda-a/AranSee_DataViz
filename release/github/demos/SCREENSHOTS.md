@@ -17,7 +17,7 @@
 
 | 文件 | 你的命名 | 入选理由 |
 |------|----------|----------|
-| `field_dark_roi.png` | **A_Ball_Dark_ROIz** | **主英雄图**：暗色全场 + 锚点 A + 策略模拟（Z↓）+ 英文 ROI，信息最全 |
+| `field_dark_roi.png` | **A_Ball_Dark_ROIz** | **主英雄图**：暗色全场 + 锚点 A + 策略模拟（Z↓）+ 英文策略模拟优先提示，信息最全 |
 | `field_dark_series_ab.png` | **A_B_Dark_Alltwo** | 系列双锚 A/B 同屏，暗色品牌主调 |
 | `field_light_read_a.png` | **Alight** | 亮色 + 近距读数 + 探针分，展示 Light 主题与读数模式 |
 | `field_light_series_ab.png` | **A_B_light_alltwo** | 亮色系列对比，锚点 B 收官诊断 |
@@ -28,7 +28,7 @@
 
 | 你的命名 | 未入选原因 |
 |----------|------------|
-| **A_BDarkAll_ROIy** | 与 `field_dark_roi` / `field_dark_series_ab` 信息重叠（暗色 + 双锚 + Y 轴 ROI） |
+| **A_BDarkAll_ROIy** | 与 `field_dark_roi` / `field_dark_series_ab` 信息重叠（暗色 + 双锚 + Y 轴策略模拟优先） |
 | **B_LIGHT_tips** | 与 `field_light_series_ab` 场景接近；README 已有一张亮色系列图 |
 
 若要 GitHub 放满 6 张场内图，可在 README 再加一行；当前 **4 张场内 + 2 张启动** 叙事完整且页面不过重。
@@ -38,9 +38,9 @@
 ## 质量检查（已通过）
 
 - [x] 暗/亮各至少 1 张场内图  
-- [x] 含诊断卡 + 策略模拟 / ROI  
+- [x] 含诊断卡 + 策略模拟 / 策略模拟优先提示  
 - [x] 含系列双锚进阶  
-- [x] 英文模式 ROI 为英文（`field_dark_roi`）
+- [x] 英文模式策略模拟优先提示为英文（`field_dark_roi`）
 
 ---
 

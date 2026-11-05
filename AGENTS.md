@@ -20,7 +20,9 @@ Do **not** run render/pipeline scripts in the public Skill path.
 3. Field contract: `docs/DATA_CONTRACT.md`
 4. Optional production loop: `docs/SOP_CONTENT_LOOP.md`（拆解→修文→追更）
 
-Scores reflect a **comment sample the user provides**, not the full comment population. If the sample looks skewed (praise-only, no author replies, no questions), ask for more types or note the limitation in `insight`.
+Scores reflect a **comment sample the user provides**, not the full comment population.
+
+**Evidence (axes):** Score X / Y / Z independently. Z needs **actual comment-field resonance**, not title/body tone alone. Likes / favorites / shares are behavioral signals only; never convert them into Z. If the **post body** is missing, use format B (`status: "insufficient_evidence"`, no coordinates). If the post is scorable but Z lacks comments, use **`status: "success"`** with `coordinates.Z.score: 0`, `evidence_status: "insufficient_evidence"`, `detail` starting with 「证据待补充」, and `analysis_meta.pending_axes: ["Z"]`. Never use `null` scores. See `docs/DATA_CONTRACT.md` and `prompts/score_content.system.md`.
 
 Skill samples (JSON only): `assets/cases/nature_cloud_photo_01/`, `assets/cases/market_festival_edu_01/`  
 Pre-baked demo HTML (showcase, not Skill output): `docs/demos/`
